@@ -6,4 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=7.1.0",
+    "jupyter-collaboration>=4.2.0",
+    "jupyter-mcp-tools>=0.1.4",
+    "jupyterlab>=4.5.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "W2/week2-data-work",
 ]
