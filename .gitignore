@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -19,3 +20,19 @@ scratch/
 /W4/
 /datasets/
 /data/
+=======
+﻿__pycache__/
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+arabert-ner/
+**/checkpoint-*/
+**/*.bin
+**/*.safetensors
+**/*.pt
+**/*.ckpt
+wandb/
+runs/
+logs/
+1
+>>>>>>> c402d99 (Add Arabic NER notebook)
